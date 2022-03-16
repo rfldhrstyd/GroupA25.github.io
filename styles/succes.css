@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --background : #F8F9FD;
+    --black-primary : #102A43;
+    --black-secondary : #627D98;
+    --black-hover : #16395A;
+    --black-nav : #334E68;
+    --blue-primary : #22BDFF;
+    --white : #fff;
+    --shadow-primary : 0px 4px 8px rgba(217, 217, 217, 0.5);
+    --shadow-secondary : 0px 30px 60px rgba(217, 217, 217, 0.5); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease .3s;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--background);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.succes{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.succes-img img{
+    width:500px;
+}
+
+.succes p{
+    font-size: 18px;
+    color: var(--black-secondary);
+    font-family: 'Raleway';
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.succes p a{
+    color: var(--blue-primary);
+}
+
+@media (max-width:600px) {
+    .succes-img img{
+        width: 320px;
+    }
+}

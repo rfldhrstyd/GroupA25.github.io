@@ -1,0 +1,30 @@
+<svg width="254" height="175" viewBox="0 0 254 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_103_368" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="25" width="212" height="150">
+<rect y="25.5063" width="211.899" height="149.241" rx="22" fill="#F8FBFB"/>
+</mask>
+<g mask="url(#mask0_103_368)">
+<rect y="25.5063" width="211.899" height="149.241" rx="22" fill="white"/>
+<rect x="27.3418" y="88.1646" width="68.3544" height="45.5696" rx="10" fill="#102A43"/>
+<rect x="38.7342" y="114.367" width="45.5696" height="4.55696" rx="2.27848" fill="white"/>
+<rect x="38.7342" y="102.975" width="28.481" height="4.55696" rx="2.27848" fill="white"/>
+<rect x="115.063" y="88.1646" width="21.6456" height="45.5696" rx="7" fill="#E7EFF0"/>
+<rect x="156.076" y="88.1646" width="21.6456" height="45.5696" rx="7" fill="#E7EFF0"/>
+<rect y="25.5063" width="211.899" height="27.3418" fill="#102A43"/>
+</g>
+<g filter="url(#filter0_d_103_368)">
+<rect x="174.304" y="5" width="68.3544" height="68.3544" rx="16" fill="#22BDFF"/>
+</g>
+<circle cx="208.481" cy="39.1772" r="18.2278" stroke="white" stroke-width="5"/>
+<path d="M208.481 20.9493C218.548 20.9493 226.709 29.2054 226.709 39.3898C226.709 45.3303 223.932 50.6148 219.62 53.9873" stroke="#573F21" stroke-width="5"/>
+<defs>
+<filter id="filter0_d_103_368" x="155.304" y="0" width="98.3544" height="98.3545" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-4" dy="10"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.741176 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_103_368"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_103_368" result="shape"/>
+</filter>
+</defs>
+</svg>

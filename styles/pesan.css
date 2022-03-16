@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --background : #F8F9FD;
+    --black-primary : #102A43;
+    --black-secondary : #627D98;
+    --black-hover : #16395A;
+    --black-nav : #334E68;
+    --blue-primary : #22BDFF;
+    --white : #fff;
+    --shadow-primary : 0px 4px 8px rgba(217, 217, 217, 0.5);
+    --shadow-secondary : 0px 30px 60px rgba(217, 217, 217, 0.5); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease .3s;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--background);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.pesan{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 25px;
+}
+
+.pesan-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: var(--shadow-secondary);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.pesan-content h1{
+    color: var(--black-primary);
+    font-size: 28px;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.pesan-content h1 span{
+    color: var(--blue-primary);
+
+}
+
+
+.pesan-img img{
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.pesan-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    height: 45px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 20px;
+}
+
+input::placeholder,textarea::placeholder{
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: var(--black-secondary);
+    font-weight: 500;
+}
+
+textarea{
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.pesan-input a{
+    background-color: var(--blue-primary);
+    border-radius: 10px;
+    height: 45px;
+    text-align: center;
+    line-height: 43px;
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 10px;
+    border: 2px solid #22BDFF;
+}
+
+.pesan-input a:hover{
+    background-color: var(--white);
+    color: var(--blue-primary);
+    border: 2px solid #22BDFF;
+}
